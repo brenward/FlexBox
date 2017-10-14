@@ -1,12 +1,16 @@
 .container{
     display: flex;
+    border: 10px solid black;
+    flex-direction: row;
     /*flex-direction: row-reverse;*/
     /*flex-direction: column;*/
-    flex-direction: column-reverse;
+    /*flex-direction: column-reverse;*/
+
+    flex-wrap:wrap;
 }
 
 div{
-    height: 40px;
+    width:100px;
 }
 
 #div1{
