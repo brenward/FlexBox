@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+}
+
+div{
+    height: 40px;
+}
+
+#div1{
+    background-color: red;
+}
+
+#div2{
+    background-color: orangered;
+}
+
+#div3{
+    background-color: orange;
+}
+
+#div4{
+    background-color: yellow;
+}
