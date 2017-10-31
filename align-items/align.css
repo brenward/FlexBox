@@ -16,6 +16,7 @@
 #div1{
     background-color: red;
     align-self: flex-start;
+    order:3;
 }
 
 #div2{
@@ -30,6 +31,7 @@
 #div4{
     background-color: yellow;
     font-size: 150px;
+    order:-1;
 }
 
 #div5{
@@ -39,6 +41,7 @@
 #div6{
     background-color: purple;
     font-size: 60px;
+    order: 2;
 }
 
 #div7{
