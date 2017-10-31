@@ -9,10 +9,15 @@
 }
 
 .box{
-    flex-basis: 400px;
+
     font-size: 80px;
-    flex-grow: 1;
+
+    flex: 2 1 400px;
+
+    /* The above flex line is equivalent to these three lines
+    flex-grow: 2;
     flex-shrink: 1;
+    flex-basis: 400px; */
 
 }
 
@@ -26,6 +31,7 @@
     /* So the if there is less space, this box will shrink faster compared to the other boxes.The formula is more complicated than the grow*/
     flex-grow: 3;
     flex-shrink: 3;
+
 }
 
 #div2{
