@@ -20,6 +20,10 @@
     background-color: red;
     align-self: flex-start;
     order:3;
+
+    /* these work based on the amount of space availble or unavailable*/
+    /* So the if there is extra space, this box will use 3 times as much of the extra space compared to the other boxes*/
+    /* So the if there is less space, this box will shrink faster compared to the other boxes.The formula is more complicated than the grow*/
     flex-grow: 3;
     flex-shrink: 3;
 }
