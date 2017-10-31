@@ -9,9 +9,11 @@
 }
 
 .box{
-    flex-basis: 150px;
+    flex-basis: 400px;
     font-size: 80px;
     flex-grow: 1;
+    flex-shrink: 1;
+
 }
 
 #div1{
@@ -19,6 +21,7 @@
     align-self: flex-start;
     order:3;
     flex-grow: 3;
+    flex-shrink: 3;
 }
 
 #div2{
