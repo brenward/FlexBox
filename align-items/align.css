@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box{
+    width:400px;
+    font-size: 80px;
+}
+
+#div1{
+    background-color: red;
+}
+
+#div2{
+    background-color: orangered;
+    font-size: 20px;
+}
+
+#div3{
+    background-color: orange;
+}
+
+#div4{
+    background-color: yellow;
+    font-size: 150px;
+}
+
+#div5{
+    background-color: blue;
+}
+
+#div6{
+    background-color: purple;
+    font-size: 60px;
+}
+
+#div7{
+    background-color: blueviolet;
+}
+
+#div8{
+    background-color: lightblue;
+}
